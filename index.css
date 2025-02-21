@@ -1,0 +1,61 @@
+
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    font-family: Cursed Timer ULiL;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.score{
+    border-radius: 5px;
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 15px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 135px;
+    height: 105px;
+}
+
+#guest-score, #home-score{
+    margin-top: -0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button{
+     border: 1px solid #9AABD8;
+     height: 40px;
+     width: 40px;
+     color: #9AABD8;
+     background-color: #1B244A;
+     border-radius: 5px;
+     margin-right: 5px;
+     font-family: Cursed Timer ULiL;
+}
+
+.team{
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #EEEEEE;
+}
